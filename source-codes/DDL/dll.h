@@ -65,7 +65,7 @@ class dll {
         // Get the data from particular node by index from the dll then remove it: O(n)
         T pop_at(int index);
 
-        // Get the index of a node and a pointer pointed to it
+        // Get the index of a node and a pointer pointed to it.
         void index_of(T data, int &index, Node **ptr);
 
         // get the node of a given index
