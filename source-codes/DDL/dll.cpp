@@ -263,8 +263,8 @@ template<class T>
 T dll<T>::pop_at(int index){
     assert(index >= 0 && index < size());
     if (!is_empty()) {
-        if (index == 0) return pop_first(); // if the node to remove is at position is zero, remove the first node of the dll
-        else if (index == size()-1 ) return pop_last(); // if the node to remove is at the last, remove the last of the dll
+        if (index == 0) return pop_first(); // if the node to remove is at position is zero, remove the first node of the dll.
+        else if (index == size()-1 ) return pop_last(); // if the node to remove is at the last, remove the last of the dll.
         else { // otherwise
             // Seek the node that exists in that index
 
