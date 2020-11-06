@@ -3,7 +3,7 @@
 template <class T>
 class dll {
     private:
-        // Internal Node class to represent a node
+        // Internal Node class to represent a node.
         class Node {
             public:
                 T data;
