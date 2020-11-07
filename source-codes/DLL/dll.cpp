@@ -10,7 +10,8 @@ void dll<T>::clear() {
         Node *next = trav->next;
         trav->prev = trav->next = nullptr;
 
-        trav->data = T();
+		delete trav->next;
+		delete trav->prev;
         
         trav = next;
     }
