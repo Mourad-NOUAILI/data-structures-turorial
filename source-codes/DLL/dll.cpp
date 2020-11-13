@@ -71,16 +71,20 @@ bool dll<T>::contains(T data) {
     return ptr != nullptr;
 }
 
-// get the node of a given index
+// get the node of a given index: O(n)
 template <class T>
 void dll<T>::access_by_index(int index, Node **ptr) {
-    assert(index >= 0 && index < size());
-    *ptr = head;
-    int pos = 0;
-    while (pos != index){
-        *ptr = (*ptr)->next; 
-        pos++;            
+     assert(index >= 0 && index < size());
+    if (!is_empty()) {
+        *ptr = head;
+        int pos = 0;
+        while (pos != index) {
+            *ptr = (*ptr)->next;
+            pos++;
+        }
     }
+    else
+        *ptr = nullptr;
 }
 
 // Add an element at the beginning of the dll: O(1)
