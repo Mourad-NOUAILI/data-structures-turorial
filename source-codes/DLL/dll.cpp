@@ -53,11 +53,18 @@ bool dll<T>::is_empty() {
 // Get the index of a node and a pointer pointed to it
 template <class T>
 void dll<T>::index_of(T data, int & index, Node **ptr){
-    index = 0;
-    *ptr = head;
-    while (*ptr != nullptr && (*ptr)->data != data) {
-        *ptr = (*ptr)->next;
-        index++;
+    if (!is_empty()) {
+        *ptr = head;
+        index = 0;
+        while((*ptr)->data != data && (*ptr) != nullptr) {
+            *ptr = (*ptr)->next;
+            index++;
+        }
+        if (*ptr == nullptr) index = -1;
+    }
+    else {
+        index = -1;
+        *ptr = nullptr;
     }
 }
 
