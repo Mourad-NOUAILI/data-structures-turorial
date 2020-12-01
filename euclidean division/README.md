@@ -79,3 +79,28 @@ Python (may be other languages) give wrong quotient and remainder.
 
 ### Mathematical results
 ![alt](https://github.com/Mourad-NOUAILI/data-structures-turorial/blob/main/euclidean%20division/Screenshot%20from%202020-12-01%2019-00-04.png)
+
+### C++ results
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    cout << 17 / -7  <<" " << 17 % -7 << '\n';
+    
+    lldiv_t res = lldiv(17, -7);
+    cout << res.quot << " " << res.rem << '\n';
+
+    return 0;
+}
+```
+![alt](https://github.com/Mourad-NOUAILI/data-structures-turorial/blob/main/euclidean%20division/Screenshot%20from%202020-12-01%2019-07-03.png)
+
+C++ answer math with the maths.
+
+### Python results
+```python
+print(17 // -7, 17 % -7)
+print(divmod(17,-7))
+```
+![alt]()
