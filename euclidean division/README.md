@@ -10,7 +10,7 @@
 ## Dividend >= 0 and divisor > 0
 In this case, there is no problem
 ### Mathematical results
-![alt](https://github.com/Mourad-NOUAILI/data-structures-turorial/blob/main/euclidean%20division/Screenshot%20from%202020-12-01%2018-23-16.png)
+![alt](https://github.com/Mourad-NOUAILI/data-structures-turorial/blob/main/euclidean%20division/Screenshot%20from%202020-12-01%2018-30-50.png)
 
 ### C++ results
 ```cpp
