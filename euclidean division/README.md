@@ -8,6 +8,23 @@
 ![alt](https://github.com/Mourad-NOUAILI/data-structures-turorial/blob/main/euclidean%20division/Screenshot%20from%202020-12-01%2018-07-27.png)
 
 ## Dividend >= 0 and divisor > 0
-In this case, there no problem
+In this case, there is no problem
 ### Mathematical results
+![alt](https://github.com/Mourad-NOUAILI/data-structures-turorial/blob/main/euclidean%20division/Screenshot%20from%202020-12-01%2018-23-16.png)
+
+### C++ results
+`
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    cout << 17 / 7  <<" " << 17 % 7 << '\n';
+    
+    lldiv_t res = lldiv(17, 7);
+    cout << res.quot << " " << res.rem << '\n';
+
+    return 0;
+}
+
+`
 
