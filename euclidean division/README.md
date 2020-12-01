@@ -73,7 +73,9 @@ print(divmod(-17,7))
 Python answer math with the maths.
 
 ## Dividend >= 0 and divisor < 0
-C++, Python (may be all languages -not sure-) give wrong quotient and remainder.
+C++ gives right answers.
+
+Python (may be other languages) give wrong quotient and remainder.
 
 ### Mathematical results
 ![alt](https://github.com/Mourad-NOUAILI/data-structures-turorial/blob/main/euclidean%20division/Screenshot%20from%202020-12-01%2019-00-04.png)
