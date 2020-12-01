@@ -61,7 +61,7 @@ int main() {
 
 ### Python results
 ```python
-print(17 // 7, 17 % 7)
-print(divmod(17,7))
+print(-17 // 7, -17 % 7)
+print(divmod(-17,7))
 ```
-![alt](https://github.com/Mourad-NOUAILI/data-structures-turorial/blob/main/euclidean%20division/Screenshot%20from%202020-12-01%2018-34-00.png)
+![alt](https://github.com/Mourad-NOUAILI/data-structures-turorial/blob/main/euclidean%20division/Screenshot%20from%202020-12-01%2018-49-18.png)
