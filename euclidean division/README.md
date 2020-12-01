@@ -58,6 +58,8 @@ int main() {
 }
 ```
 ![alt](https://github.com/Mourad-NOUAILI/data-structures-turorial/blob/main/euclidean%20division/Screenshot%20from%202020-12-01%2018-46-50.png)
+C++ answer ***does not match*** with the mathematical computing.
+(How to rectify?)
 
 ### Python results
 ```python
@@ -65,3 +67,9 @@ print(-17 // 7, -17 % 7)
 print(divmod(-17,7))
 ```
 ![alt](https://github.com/Mourad-NOUAILI/data-structures-turorial/blob/main/euclidean%20division/Screenshot%20from%202020-12-01%2018-49-18.png)
+Python answer math with the maths.
+
+## Dividend >= 0 and divisor < 0
+C++, Python (may be all languages -not sure-) give wrong quotient and remainder.
+
+### Mathematical results
