@@ -37,6 +37,8 @@ print(divmod(17,7))
 
 ## Dividend <= 0 and divisor > 0
 Python give a correct answer.
+
 C++, Pascal (may be other langages) give **wrong answers** (see mathematical results for this section.)
 
 ### Mathematical results
+[!alt](https://github.com/Mourad-NOUAILI/data-structures-turorial/blob/main/euclidean%20division/Screenshot%20from%202020-12-01%2018-43-52.png)
