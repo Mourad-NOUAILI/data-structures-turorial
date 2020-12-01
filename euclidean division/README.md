@@ -13,7 +13,7 @@ In this case, there is no problem
 ![alt](https://github.com/Mourad-NOUAILI/data-structures-turorial/blob/main/euclidean%20division/Screenshot%20from%202020-12-01%2018-23-16.png)
 
 ### C++ results
-`
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -26,5 +26,5 @@ int main() {
     return 0;
 }
 
-`
+```
 
