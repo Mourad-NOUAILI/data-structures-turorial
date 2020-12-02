@@ -141,3 +141,62 @@ print(divmod(-17,-7))
 ![alt](https://github.com/Mourad-NOUAILI/data-structures-turorial/blob/main/euclidean%20division/Screenshot%20from%202020-12-02%2021-12-59.png)
 
 ## How to rectify
+One way is:
+
+1- First, compute the remainder using this formula: remainder = ((dividend mod divisor) + |divisor| ) mod |divisor|
+2- Second, compute the quotient: (dividend - remainder) div divisor
+
+### C++
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+struct euclidean_division {
+    int quot;
+    int rem;
+};
+
+euclidean_division int_ed(int a, int b) {
+    euclidean_division ed;
+    // Compute the remainder
+    ed.rem = ((a % b) + abs(b)) % abs(b);
+        
+    // Compute the quotient
+    ed.quot = (a - ed.rem) / b;
+    
+    return ed;
+}
+
+
+int main() {
+    do {
+        cout << "Dividend Divisor?: ";
+        int a, b;
+        cin >> a >> b;
+        
+        euclidean_division res =  int_ed(a, b);
+        
+        cout << res.quot << " " << res.rem << '\n';
+        
+    }while (!cin.fail());
+    
+    return 0;
+}
+
+```
+### Python
+```python
+def int_ed(a, b):
+    rem = ((a % b) + abs(b)) % abs(b)
+    quot = (a - rem) // b
+    
+    return quot, rem
+
+while True:
+    try:
+        a, b = map(int, input("Dividend Divisor?: ").split())
+        q, r = int_ed(a, b)
+        print(q, r)
+    except ValueError:
+        break;
+```
