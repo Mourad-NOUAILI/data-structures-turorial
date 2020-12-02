@@ -112,4 +112,4 @@ Python results ***does not match***.
 ## Dividend <= 0 and divisor < 0
 
 ### Mathematical results
-![alt](https://github.com/Mourad-NOUAILI/data-structures-turorial/blob/main/euclidean%20division/Screenshot%20from%202020-12-01%2019-07-14.png)
+![alt](https://github.com/Mourad-NOUAILI/data-structures-turorial/blob/main/euclidean%20division/Screenshot%20from%202020-12-02%2021-06-07.png)
