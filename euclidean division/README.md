@@ -61,16 +61,16 @@ int main() {
 
 C++ answer ***does not match*** with the mathematical computing.
 
-(How to rectify?)
+[How to rectify?](https://github.com/Mourad-NOUAILI/data-structures-turorial/blob/main/euclidean%20division/README.md#how-to-rectify)
 
 ### Python results
 ```python
-print(-17 // 7, -17 % 7)
+print(-17 // 7, -17 % 7)[How to rectify?](https://github.com/Mourad-NOUAILI/data-structures-turorial/blob/main/euclidean%20division/README.md#how-to-rectify)
 print(divmod(-17,7))
 ```
 ![alt](https://github.com/Mourad-NOUAILI/data-structures-turorial/blob/main/euclidean%20division/Screenshot%20from%202020-12-01%2018-49-18.png)
 
-Python answer math with the maths.
+Python answer match with the maths.
 
 ## Dividend >= 0 and divisor < 0
 C++ gives right answers.
@@ -107,13 +107,13 @@ print(divmod(17,-7))
 
 Python results ***does not match***.
 
-(How to rectify?)
+[How to rectify?](https://github.com/Mourad-NOUAILI/data-structures-turorial/blob/main/euclidean%20division/README.md#how-to-rectify)
 
 ## Dividend <= 0 and divisor < 0
 
 C++, Python, ... (may be other languages), all give wrong results.
 
-(How to rectify?)
+[How to rectify?](https://github.com/Mourad-NOUAILI/data-structures-turorial/blob/main/euclidean%20division/README.md#how-to-rectify)
 
 ### Mathematical results
 ![alt](https://github.com/Mourad-NOUAILI/data-structures-turorial/blob/main/euclidean%20division/Screenshot%20from%202020-12-02%2021-06-07.png)
