@@ -144,6 +144,7 @@ print(divmod(-17,-7))
 One way is:
 
 1- First, compute the remainder using this formula: remainder = ((dividend mod divisor) + |divisor| ) mod |divisor|
+
 2- Second, compute the quotient: (dividend - remainder) div divisor
 
 ### C++
