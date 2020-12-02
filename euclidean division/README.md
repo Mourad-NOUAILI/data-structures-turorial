@@ -111,5 +111,24 @@ Python results ***does not match***.
 
 ## Dividend <= 0 and divisor < 0
 
+C++, Python, ... (may be other languages), all give wrong results.
+
+(How to rectify?)
+
 ### Mathematical results
 ![alt](https://github.com/Mourad-NOUAILI/data-structures-turorial/blob/main/euclidean%20division/Screenshot%20from%202020-12-02%2021-06-07.png)
+
+### C++ results
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    cout << -17 / -7  <<" " << -17 % -7 << '\n';
+    
+    lldiv_t res = lldiv(-17, -7);
+    cout << res.quot << " " << res.rem << '\n';
+
+    return 0;
+}
+```
