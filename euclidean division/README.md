@@ -96,7 +96,7 @@ int main() {
 ```
 ![alt](https://github.com/Mourad-NOUAILI/data-structures-turorial/blob/main/euclidean%20division/Screenshot%20from%202020-12-01%2019-07-03.png)
 
-C++ answer math with the maths.
+C++ answer match with the maths.
 
 ### Python results
 ```python
@@ -108,3 +108,8 @@ print(divmod(17,-7))
 Python results ***does not match***.
 
 (How to rectify?)
+
+## Dividend <= 0 and divisor < 0
+
+### Mathematical results
+![alt](https://github.com/Mourad-NOUAILI/data-structures-turorial/blob/main/euclidean%20division/Screenshot%20from%202020-12-01%2019-07-14.png)
