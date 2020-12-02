@@ -140,7 +140,7 @@ print(divmod(-17,-7))
 ```
 ![alt](https://github.com/Mourad-NOUAILI/data-structures-turorial/blob/main/euclidean%20division/Screenshot%20from%202020-12-02%2021-12-59.png)
 
-## How to rectify
+## How to rectify?
 One way is:
 
 1- First, compute the remainder using this formula: remainder = ((dividend mod divisor) + |divisor| ) mod |divisor|
