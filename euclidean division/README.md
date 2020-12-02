@@ -132,3 +132,10 @@ int main() {
     return 0;
 }
 ```
+
+### Python results
+```python
+print(-17 // -7, -17 % -7)
+print(divmod(-17,-7))
+```
+![alt](./screenshot%20from%202020-12-02%2021-12-59.png)
