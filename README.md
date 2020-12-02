@@ -1,1 +1,3 @@
-# data-structures-turorial
+# Data structures turorial (Back to the right ways :) )
+
+In progress...
