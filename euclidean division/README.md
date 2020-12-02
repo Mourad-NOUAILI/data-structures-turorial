@@ -138,4 +138,4 @@ int main() {
 print(-17 // -7, -17 % -7)
 print(divmod(-17,-7))
 ```
-![alt](./screenshot%20from%202020-12-02%2021-12-59.png)
+![alt](https://github.com/Mourad-NOUAILI/data-structures-turorial/blob/main/euclidean%20division/Screenshot%20from%202020-12-02%2021-12-59.png)
